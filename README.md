@@ -1,4 +1,4 @@
-## This is the officail website for ADVAIT 😝
+## This is the official website for ADVAIT 😝
 
 ## Getting Started
 
