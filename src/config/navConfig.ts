@@ -3,7 +3,7 @@ import type { CardNavItem } from '../components/CardNav'
 export const navItems: CardNavItem[] = [
   {
     label: "Products",
-    bgColor: "#1a1a1a",
+    bgColor: "#0d0716",
     textColor: "#ffffff",
     links: [
       { label: "Feature 1", href: "#", ariaLabel: "Feature 1" },
@@ -13,7 +13,7 @@ export const navItems: CardNavItem[] = [
   },
   {
     label: "Services",
-    bgColor: "#1a1a1a",
+    bgColor: "#170d27",
     textColor: "#ffffff",
     links: [
       { label: "Service 1", href: "#", ariaLabel: "Service 1" },
@@ -23,7 +23,7 @@ export const navItems: CardNavItem[] = [
   },
   {
     label: "About",
-    bgColor: "#1a1a1a",
+    bgColor: "#271e37",
     textColor: "#ffffff",
     links: [
       { label: "Our Story", href: "#", ariaLabel: "Our Story" },
