@@ -160,7 +160,7 @@ const CardNav: React.FC<CardNavProps> = ({
 
   return (
     <div className={`card-nav-container ${className}`}>
-      <nav ref={navRef} className={`card-nav ${isExpanded ? 'open' : ''}`} style={{ backgroundColor: baseColor }}>
+      <nav ref={navRef} className={`card-nav ${isExpanded ? 'open' : ''}`} style={{ background: baseColor }}>
         <div className="card-nav-top">
           <div
             className={`hamburger-menu ${isHamburgerOpen ? 'open' : ''}`}
@@ -181,7 +181,7 @@ const CardNav: React.FC<CardNavProps> = ({
           <button
             type="button"
             className="card-nav-cta-button"
-            style={{ backgroundColor: buttonBgColor, color: buttonTextColor }}
+            style={{ background: buttonBgColor, color: buttonTextColor }}
           >
             Login/Join
           </button>

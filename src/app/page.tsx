@@ -8,10 +8,10 @@ export default function Home() {
         logo="/advait-logo.png"
         logoAlt="ADVAIT Logo"
         items={navItems}
-        baseColor="#000000"
-        menuColor="#ffffff"
-        buttonBgColor="#ffffff"
-        buttonTextColor="#000000"
+        baseColor={navConfig.baseColor}
+        menuColor={navConfig.menuColor}
+        buttonBgColor={navConfig.buttonBgColor}
+        buttonTextColor={navConfig.buttonTextColor}
       />
         <div className="ADVAIT">
           <h1>ADVAIT</h1>

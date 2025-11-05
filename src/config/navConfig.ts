@@ -36,9 +36,9 @@ export const navItems: CardNavItem[] = [
 export const navConfig = {
   logo: "/advait-logo.png",
   logoAlt: "ADVAIT Logo",
-  baseColor: "rgba(249, 249, 249, 0.1)",
+  baseColor: "#000000",
   menuColor: "#ffffff",
-  buttonBgColor: "#ffffff",
-  buttonTextColor: "#000000"
+  buttonBgColor: "linear-gradient(135deg,rgb(255, 95, 8),rgba(220, 8, 89, 0.42))",
+  buttonTextColor: "#ffffff"
 };
 
